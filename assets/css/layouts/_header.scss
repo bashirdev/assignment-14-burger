@@ -1,0 +1,101 @@
+.header-area {
+  position: relative;
+  height: 100%;
+
+  nav {
+    li {
+      font-family: 'Bebas Neue', cursive;
+      margin-top: 7px;
+      padding-left: 5px;
+    }
+
+    .menu-items {
+
+      ul {
+
+        li {
+          a {
+            margin-left: 35px;
+            padding: 10px 10px;
+            font-family: 'Bebas Neue', cursive;
+          }
+        }
+      }
+    }
+  }
+
+  .banner {
+    position: relative;
+    margin-top: -30px;
+
+    small {
+      display: inline-block;
+      padding: 5px 10px;
+      border: 1px solid #000;
+      border-style: dashed;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 2px;
+
+    }
+
+    .heading-title {
+      position: relative;
+      display: inline-block;
+
+      .top-title {
+        font-weight: bold;
+        font-size: 115px;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: 1;
+      }
+
+      .down-title {
+        position: absolute;
+        top: 0;
+        left: 1%;
+        color: #fff !important;
+        font-weight: bold;
+        font-size: 115px;
+        letter-spacing: 2px;
+        z-index: 0;
+
+      }
+
+      .down-h2 {
+        position: absolute;
+        top: 0;
+        left: 0.5%;
+        color: #fff !important;
+        font-weight: bold;
+        font-size: 115px;
+        letter-spacing: 1.5;
+        z-index: 0;
+
+      }
+    }
+
+    .heading-h2 {
+      position: relative;
+      display: inline-block;
+
+      .top-h2 {
+        font-weight: bold;
+        letter-spacing: 1.5;
+        position: relative;
+        z-index: 1;
+      }
+
+      .down-h2 {
+        position: absolute;
+        top: 1px;
+        left: 1.5%;
+        color: #fff !important;
+        font-weight: bold;
+        letter-spacing: 1.5;
+        z-index: 0;
+      }
+    }
+
+  }
+}

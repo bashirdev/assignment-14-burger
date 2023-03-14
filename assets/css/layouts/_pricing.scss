@@ -1,0 +1,27 @@
+.burger-card {
+
+
+    p {
+        font-family: 'Bebas Neue', cursive;
+        max-width: 70%;
+        margin: 0 auto;
+
+    }
+
+    .top-contetn {
+        background-color: goldenrod;
+        padding: 8px;
+        margin-bottom: 10px;
+        display: inline-block;
+
+    }
+
+    .card-item {
+        max-width: 600px;
+
+        img {
+            max-height: 200px;
+        }
+    }
+
+}
